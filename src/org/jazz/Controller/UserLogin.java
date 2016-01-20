@@ -1,5 +1,6 @@
 package org.jazz.Controller;
 
+
 import org.springframework.stereotype.Controller;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.ModelAttribute;
@@ -14,7 +15,7 @@ import orh.jazz.Model.UserLog;
 
 public class UserLogin {
 	
-	
+
 	@RequestMapping(value="/Log" , method=RequestMethod.GET)
 	public ModelAndView showform()
 	{
